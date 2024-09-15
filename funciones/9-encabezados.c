@@ -3,7 +3,7 @@
 
 int main() {
 
-    int f;
+    
 
     
 
@@ -17,9 +17,6 @@ int main() {
 
     f = funcion4(10);
 
-    // Imprime el valor que retornó funcion3()
-    printf("v = %d\n", v);
-    printf("f = %d\n", f);
     f = funcion5(10);
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
@@ -53,6 +50,7 @@ int funcion3(int x) {
 int funcion4(int x) {
     printf("En funcion3()...\n");
     int y = x - 2;
+}
 
 int funcion5(int x) {
     printf("En funcion3()...\n");
